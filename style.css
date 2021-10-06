@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#e1f1e5, #acdabb);
+}
+
+.container #scene .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.container #scene .layer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.men{
+    width: 6em;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.urso{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
